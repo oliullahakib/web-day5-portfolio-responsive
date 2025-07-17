@@ -190,11 +190,30 @@ textarea{
 }
 
 @media screen and (max-width:576px) {
-   
+   *{
+    margin: 0;
+   }
+   .btn-primary {
+    margin-bottom: .5em;
+   }
     /* what i do section  */
-    .skills-container,footer{
+    .skills-container,footer,nav, nav ul,.banner{
         flex-direction: column;
     }
+    nav ul{
+        gap: 1em;
+    }
+    .banner{
+        margin: 0;
+    }
+    .banner-discription {
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+    .banner img {
+    width: 100%;
+    height: auto;
+}
     .about{
         width: 100%;
         margin: 0;
@@ -204,6 +223,7 @@ textarea{
     }
     .resume-container{
     flex-direction: column;
+    margin-left: .5em;
 }
     footer{
     padding: 20px;
