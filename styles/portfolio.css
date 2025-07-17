@@ -190,10 +190,15 @@ textarea{
 }
 
 @media screen and (max-width:576px) {
-    main{
-        max-width: 70vw;
-    }
-    .skills-container{
+   
+    /* what i do section  */
+    .skills-container,footer{
         flex-direction: column;
     }
+    .resume-container{
+    flex-direction: column;
+}
+    footer{
+    padding: 20px;
+}
 }
