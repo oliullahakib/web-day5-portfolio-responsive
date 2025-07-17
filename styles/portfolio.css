@@ -183,3 +183,17 @@ footer input[type="text"], input[type="email"],textarea{
 textarea{
     height: 130px;
 }
+
+/* responsive media quary */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    main{
+        max-width: 70vw;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+}
